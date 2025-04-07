@@ -1,0 +1,72 @@
+.header
+{
+    display: flex;
+    width:auto;
+    align-items: center;
+}
+.search
+{
+    width: auto;
+    display: flex;
+    border: 1px solid black;
+    border-radius:30px;
+    padding:4px;
+}
+
+.search input{
+    border: aqua;
+}
+.search img
+{
+    max-width:20px; max-height:20px;
+}
+.profile
+{
+    display: flex;
+    gap:5px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 4px;
+    background-color:whitesmoke;
+}
+
+.profileComponent
+{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    padding: 4px;
+    border: 1px solid black;
+    height: full;
+    width:full;
+}
+
+.overview
+{
+    border: 1px solid black;
+    border-radius:30px;
+    padding: 5px;
+    width: auto;
+}
+.overviewtitle
+{
+    display: flex;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.items
+{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-template-rows:repeat(2,1fr) ;
+  gap:10px;
+  width: auto;
+  justify-content: center;
+}
+
+.classx
+{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    width: auto;
+}
