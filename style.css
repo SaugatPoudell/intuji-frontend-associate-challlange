@@ -107,7 +107,7 @@ display: grid;
 .overview
 {
     border:1px solid black;
-    height:430px;
+
 }
 .saving
 {
@@ -153,4 +153,15 @@ display: grid;
     display: flex;
     justify-content:space-between;
     border: 1px solid red;
+}
+
+.savingtitle
+{
+    display: flex;
+    justify-content: space-between;
+}
+.savingcontent
+{
+    display: flex;
+    justify-content: space-between;
 }
